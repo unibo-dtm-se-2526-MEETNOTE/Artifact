@@ -3,11 +3,12 @@ name = "meetnote"
 packages = [
     { include = "meetnote" },
 ]
-version = "1.0.0"
-description = "A template for Python projects, using Poetry"
-authors = ["Giovanni Ciatto <giovanni.ciatto@unibo.it>"]
-license = "Apache 2.0"
+version = "1.1.4"
+description = "AI-assisted meeting transcription and action-item review desktop application"
+authors = ["Sahand Atlasi <sahand.atlasi@studio.unibo.it>"]
+license = "Apache-2.0"
 readme = "README.md"
+repository = "https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact"
 
 [tool.poetry.dependencies]
 # update the Python versions in .github/workflows/check.yml if you change this
