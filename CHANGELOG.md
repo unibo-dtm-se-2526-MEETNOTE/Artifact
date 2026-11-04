@@ -1,3 +1,14 @@
+## [1.1.5](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/compare/1.1.4...1.1.5) (2026-11-04)
+
+### Bug Fixes
+
+* **ci:** restore PyPI publishing in semantic-release ([517a5b5](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/517a5b595862b0e3fcd26adfd81fc08e76f5caaa))
+
+### General maintenance
+
+* **release:** 1.1.5 [skip ci] ([947ffee](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/947ffee58a9e74b88f915951193a14ec961b508f))
+* remove partial 1.1.5 changelog entry [skip ci] ([ebea478](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/ebea47837274dbcc90d5b84eedc48114f5a31fe8))
+
 ## 1.0.0 (2026-10-13)
 
 ### ⚠ BREAKING CHANGES
