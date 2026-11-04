@@ -3,7 +3,7 @@ name = "meetnote"
 packages = [
     { include = "meetnote" },
 ]
-version = "1.1.4"
+version = "1.1.5"
 description = "AI-assisted meeting transcription and action-item review desktop application"
 authors = ["Sahand Atlasi <sahand.atlasi@studio.unibo.it>"]
 license = "Apache-2.0"
