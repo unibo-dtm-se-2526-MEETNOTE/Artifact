@@ -29,6 +29,7 @@ from meetnote.application.ai import (
 
 load_dotenv()
 
+
 class MeetingScreen(Screen):
     def __init__(
         self,
