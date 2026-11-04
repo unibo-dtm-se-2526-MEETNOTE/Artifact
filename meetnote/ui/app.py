@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 from pathlib import Path
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
