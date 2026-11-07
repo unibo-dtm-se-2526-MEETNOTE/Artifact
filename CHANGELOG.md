@@ -1,3 +1,21 @@
+## [1.1.6](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/compare/1.1.5...1.1.6) (2026-11-04)
+
+### Bug Fixes
+
+* load Gemini API key from local environment file ([061cdaf](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/061cdaf3d27fee1e34a499746affa6c02122bc91))
+* reformat ([69eeb4c](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/69eeb4cb92db8482b547f449e7a70f957f75e80d))
+
+### Build and continuous integration
+
+* remove obsolete repository initialization workflow ([1e1c03a](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/1e1c03a35aa49e8fc24fa98afaa009c1bd0f3b4e))
+* trigger workflow run ([3de1676](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/3de16764416deed82679b21a04afaaea0893cbe9))
+* trigger workflow run ([45095f7](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/45095f73c992615559a307ef9207769da2e322a8))
+* trigger workflow run ([186add9](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/186add9c5537237c076de01a6085ed9fed28530b))
+
+### Style improvements
+
+* move dotenv initialization after imports ([301a348](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/301a348c5ec94ace0cabad61887a168c8b040ed3))
+
 ## [1.1.5](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/compare/1.1.4...1.1.5) (2026-11-04)
 
 ### Bug Fixes
