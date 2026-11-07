@@ -532,7 +532,11 @@ class KanbanScreen(Screen):
         self.meeting_service = meeting_service
         self.current_meeting_id: int | None = None
 
-        layout = BoxLayout(orientation="vertical", spacing=10, padding=20)
+        layout = BoxLayout(
+            orientation="vertical",
+            spacing=10,
+            padding=20,
+        )
 
         self.title_label = Label(
             text="Kanban board",
@@ -603,6 +607,8 @@ class KanbanScreen(Screen):
             orientation="vertical",
             spacing=10,
             padding=10,
+            size_hint_x=None,
+            width=380,
         )
 
         column.add_widget(
@@ -613,6 +619,25 @@ class KanbanScreen(Screen):
                 height=40,
             )
         )
+
+        cards_scroll = ScrollView(do_scroll_x=False)
+
+        cards_layout = BoxLayout(
+            orientation="vertical",
+            spacing=10,
+            size_hint_y=None,
+        )
+        cards_layout.bind(minimum_height=cards_layout.setter("height"))
+
+        cards_scroll.add_widget(cards_layout)
+        column.add_widget(cards_scroll)
+
+        if title == "Open":
+            self.open_cards = cards_layout
+        elif title == "Done":
+            self.done_cards = cards_layout
+        else:
+            self.verified_cards = cards_layout
 
         return column
 
@@ -628,13 +653,9 @@ class KanbanScreen(Screen):
             self.current_meeting_id,
         )
 
-        self.open_column.clear_widgets()
-        self.done_column.clear_widgets()
-        self.verified_column.clear_widgets()
-
-        self.open_column.add_widget(Label(text="Open", font_size="22sp"))
-        self.done_column.add_widget(Label(text="Done", font_size="22sp"))
-        self.verified_column.add_widget(Label(text="Verified", font_size="22sp"))
+        self.open_cards.clear_widgets()
+        self.done_cards.clear_widgets()
+        self.verified_cards.clear_widgets()
 
         for item in items:
             owner = item.owner or "All / unassigned"
@@ -699,11 +720,11 @@ class KanbanScreen(Screen):
             card.add_widget(actions)
 
             if item.status == "open":
-                self.open_column.add_widget(card)
+                self.open_cards.add_widget(card)
             elif item.status == "done":
-                self.done_column.add_widget(card)
+                self.done_cards.add_widget(card)
             else:
-                self.verified_column.add_widget(card)
+                self.verified_cards.add_widget(card)
 
         open_count = sum(item.status == "open" for item in items)
         done_count = sum(item.status == "done" for item in items)
