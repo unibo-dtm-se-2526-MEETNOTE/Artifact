@@ -1,3 +1,9 @@
+## [1.1.8](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/compare/1.1.7...1.1.8) (2026-11-07)
+
+### Bug Fixes
+
+* remove director rule from Gemini prompt ([4924611](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/49246116d2b02dc76c264999c9f8d76ac636acd3))
+
 ## [1.1.7](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/compare/1.1.6...1.1.7) (2026-11-07)
 
 ### Bug Fixes
