@@ -10,4 +10,5 @@
     "python.testing.unittestEnabled": true,
     "python.testing.autoTestDiscoverOnSaveEnabled": true,
     "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.terminal.useEnvFile": true,
 }
