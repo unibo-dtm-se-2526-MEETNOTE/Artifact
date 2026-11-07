@@ -44,7 +44,7 @@ To include local transcription support, install the optional `whisper`
 dependency group:
 
 ```bash
-py -3.12 -m poetry install --extras whisper
+py -3.12 -m poetry install --with whisper
 ```
 
 ## Configuration
