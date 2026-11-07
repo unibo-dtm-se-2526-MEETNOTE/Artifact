@@ -1,3 +1,11 @@
+## [1.1.7](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/compare/1.1.6...1.1.7) (2026-11-07)
+
+### Bug Fixes
+
+* gemini prompt updated to cover relative dates ([9cf8813](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/9cf8813314b9d345b3f6f53167eba9d623cf57d9))
+* geminin prompt update to cover relative dates ([0e9eea1](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/0e9eea1c686cb27b1067d2517482fea64be60fc7))
+* kanban screen action items are now scrollable ([b0fcea8](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/commit/b0fcea8c4e348ae28df668321a55b2bdd35f3114))
+
 ## [1.1.6](https://github.com/unibo-dtm-se-2526-MEETNOTE/Artifact/compare/1.1.5...1.1.6) (2026-11-04)
 
 ### Bug Fixes
